@@ -1,9 +1,6 @@
 /*
  * Programming Quiz: Murder Mystery (3-4)
- *
- *
- *
- *
+ */
 
 var room = "dining room";
 var suspect = "Ms. Van Cleve";
