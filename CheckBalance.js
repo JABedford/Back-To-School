@@ -6,13 +6,13 @@
 
 var balance = 1;
 var checkBalance = true;
-var isActive = false;
+var isActive = true;
 
 if (checkBalance === false) {
     console.log("Thank you. Have a nice day.");
     
 } else if (checkBalance === true && balance > 0 && isActive) {
-    console.log("Your balance is $"+balance.toFixed(2));
+    console.log("Your balance is $"+balance.toFixed(2)+".");
     
 } else if (checkBalance && !isActive) {
     console.log("Your account is no longer active.");
