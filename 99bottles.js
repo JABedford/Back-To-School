@@ -21,3 +21,6 @@ while (num >= 1) {
     } num--;
 }
 
+
+// Had a bit trouble passing this one through.. Originally I just had the two console.logs, however, noticed my mistake 
+// the string wasn't 100% right unless the (num === 2) was added. Lesson learned to read through things better! 
