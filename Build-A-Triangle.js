@@ -33,8 +33,9 @@ function makeLine(length) {
 // tells the console to display the previous lines
 function buildTriangle(width){
     var triangle = "";
-    for (var x = 1; x <= width; x++) 
+    for (var x = 1; x <= width; x++) {
         triangle += makeLine(x);
+    }
     return triangle;
 }       
         
