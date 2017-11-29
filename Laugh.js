@@ -11,10 +11,19 @@
  */
 
 var laugh = function(max) {
-  var haha = "";
+    
+  var laughing = "";
+  
   for (var i = 0; i < max; i++) {
-    haha += "ha";
+    laughing += "ha";
   }
-  return haha;
+  return laughing + "!";
 };
-console.log(laugh(10)+"!");
+
+console.log(laugh(10));
+
+
+// I actually first submitted this with the "!" being added at the end of the console.log.. console.log(laugh(10)+"!");
+//
+// However I was getting an issue with it not recognising the solution. This was fixed by adding the string to the return statement.
+//
