@@ -17,4 +17,4 @@ var laugh = function(max) {
   }
   return haha;
 };
-console.log(laugh(3)+"!");
+console.log(laugh(10)+"!");
