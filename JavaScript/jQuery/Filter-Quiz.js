@@ -10,11 +10,11 @@ var articleList, h1, kids, parents;
 
 articleList = $(".article-list");
 
-h1 = articleList.siblings("h1");// Your code goes here!
+h1 = articleList.siblings("h1");
 
-kids = articleList.find("*");// Your code goes here!
+kids = articleList.find("*");
 
-parents = articleList.parents("div");// Your code goes here!
+parents = articleList.parents("div");
     
 
 console.log(h1, kids, parents);
