@@ -20,3 +20,6 @@ var totals = bills.map(function(bill){
 });
 
 console.log(totals);
+
+
+// Had a minor issue not converting my final string to numbers. 
