@@ -5,7 +5,7 @@ calculate the length of each one, and add each length to the end of each <p>.
 */
 
 $('p').each(function(i){
-var totWord =$(this).text().length;
-$(this).append('<b>' + totWord + ' words</b>');
+var totalWord =$(this).text().length;
+$(this).append('<b>' + totalWord + ' words</b>');
 
 });
