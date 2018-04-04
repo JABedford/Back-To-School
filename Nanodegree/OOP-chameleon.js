@@ -1,5 +1,7 @@
 /*
 
+OBJECT ORIENTATED JAVASCRIPT
+
 Create an object called `chameleon` with two properties:
 
 1. `color`, whose value is initially set to 'green' or 'pink'
