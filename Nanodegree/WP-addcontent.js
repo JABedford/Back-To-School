@@ -1,4 +1,8 @@
-/* Rewrite this loop to make it run more efficient */
+/* 
+
+WEB PERFORMANCE
+
+Rewrite this loop to make it run more efficient */
 
 /*
 for (let i = 1; i <= 200; i++) {
